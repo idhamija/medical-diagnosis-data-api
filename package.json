@@ -1,7 +1,7 @@
 {
-  "name": "webapp",
+  "name": "medical-diagnosis-data-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A dynamic API which fetches medical diagnosis test data from the central data warehouse based on the user requirements.",
   "main": "server.js",
   "type": "module",
   "scripts": {
