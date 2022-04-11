@@ -13,6 +13,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.use("/api", queriesToLowercaseMiddleware);
 
@@ -27,8 +28,6 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(resolve(__dirname, "client", "build", "index.html"));
   });
 } else {
-  app.use(cors());
-
   app.use("/api", router);
 }
 
