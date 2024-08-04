@@ -2,13 +2,9 @@
 
 A dynamic API which fetches medical diagnosis test data from the central data warehouse based on the user requirements.
 
-Hosted live at: [http://medical-diagnosis-data-api.herokuapp.com](http://medical-diagnosis-data-api.herokuapp.com/)
-
-
-
 Created using MySQL database.
 
-The database by the API is populated by [medical-diagnosis-data-etl](https://github.com/idhamija/medical-diagnosis-data-etl)
+ETL pipeline used to populate data in data warehouse [medical-diagnosis-data-etl](https://github.com/idhamija/medical-diagnosis-data-etl)
 
 ### Installation
 
